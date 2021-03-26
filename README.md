@@ -30,7 +30,7 @@ Sunbird Data Pipeline majorly consists of following Components
 ### Telemetry API - Node.js
 
 REST API implemented in Node.js, and used to send individual/batch events to Kafka Ingestion Topic. More details
-regarding this can be found [here](http://docs.sunbird.org/latest/developer-docs/telemetry/specification/ Telemetry Specs)
+regarding this can be found [here](http://docs.sunbird.org/latest/developer-docs/telemetry/specification/ "Telemetry Specs")
 
 ### Apache Kafka - Transport
 
