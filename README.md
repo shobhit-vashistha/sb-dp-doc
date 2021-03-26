@@ -6,6 +6,8 @@ anyone who requires it, in a scalable manner.
 Note: this document assumes default configuration of flink jobs, actual configuration for each of the flink jobs is at
 `ansible/kubernetes/helm_charts/datapipeline/flink-jobs/values.j2`
 
+Note: To troubleshoot your data-pipeline setup see doc [here](https://github.com/shobhit-vashistha/sb-dp-doc/blob/main/dp-debug.md "Data-pipeline debug")
+
 ## Overview
 
 Batch events are sent to Kafka Topic `env.telemetry.ingest` by the Telemetry API. From there a series of Flink jobs
