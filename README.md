@@ -3,6 +3,9 @@
 The purpose of data-pipeline is to process the Telemetry (+ some other) data, and store it for use by
 anyone who requires it, in a scalable manner.
 
+Note: this document assumes default configuration of flink jobs, actual configuration for each of the flink jobs is at
+`ansible/kubernetes/helm_charts/datapipeline/flink-jobs/values.j2`
+
 ## Overview
 
 Batch events are sent to Kafka Topic `env.telemetry.ingest` by the Telemetry API. From there a series of Flink jobs
@@ -27,7 +30,7 @@ Sunbird Data Pipeline majorly consists of following Components
 ### Telemetry API - Node.js
 
 REST API implemented in Node.js, and used to send individual/batch events to Kafka Ingestion Topic. More details
-regarding this can be found [here](http://docs.sunbird.org/latest/developer-docs/telemetry/specification/ "Telemetry Specs")
+regarding this can be found [here](http://docs.sunbird.org/latest/developer-docs/telemetry/specification/ Telemetry Specs)
 
 ### Apache Kafka - Transport
 
@@ -163,6 +166,8 @@ Transformations -
         - routes all events to `kafkaSuccessTopic`
         - routes events with `questionType=Registration` to `kafkaAssessRawTopic`
     
+
+telemetry-extractor job-manager pod down again, any way to see pod-logs after it crashes Hari?
 
 #### Pipeline Pre-processor `pipeline-preprocessor`
 
