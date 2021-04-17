@@ -194,8 +194,8 @@ Example policy might look like-
       ],
       "Effect": "Allow",
       "Resource": [
-          "arn:aws:s3:::bucket/druid",
-          "arn:aws:s3:::bucket/druid/*"
+          "arn:aws:s3:::<bucket>/druid",
+          "arn:aws:s3:::<bucket>/druid/*"
       ]
     }
   ]
