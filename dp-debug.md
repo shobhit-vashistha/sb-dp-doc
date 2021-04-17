@@ -19,6 +19,9 @@ cd opt/kafka/bin
 # to create a topic
 ./kafka-topics.sh --create --topic <topic> --replication-factor 1 --partitions 1 --bootstrap-server localhost:9092
 
+# to create topic for older version of kafka
+./kafka-topics.sh --create --topic <topic> --replication-factor 1 --partitions 1 --zookeeper localhost:2181
+
 # to list topics
 ./kafka-topics.sh --list --zookeeper localhost:2181
 
