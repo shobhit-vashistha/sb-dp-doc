@@ -52,6 +52,8 @@ or, to create missing topics, ssh to KP(kafka) server and create the topic
 # ssh to kafka server (KP)
 cd opt/kafka/bin
 ./kafka-topics.sh --create --topic <topic> --replication-factor 1 --partitions 1 --bootstrap-server localhost:9092
+# for older version of kafka
+./kafka-topics.sh --create --topic <topic> --replication-factor 1 --partitions 1 --zookeeper localhost:2181
 ```
 
 ### flink state backend
@@ -201,6 +203,12 @@ to update bucket policy using `s3cmd`, first install s3cmd and configure using `
 
 ```sh
 s3cmd setpolicy policy.json s3://<bucket>
+```
+
+Depending on the library being used to upload files to storage, to make files accessible publicly we might need to set acl to public using `s3cmd`
+
+```sh
+s3cmd setacl s3://<bucket>/<folder>/* --acl-public
 ```
 
 #### for azure deep storage
