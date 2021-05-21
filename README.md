@@ -169,8 +169,6 @@ Transformations -
         - routes events with `questionType=Registration` to `kafkaAssessRawTopic`
     
 
-telemetry-extractor job-manager pod down again, any way to see pod-logs after it crashes Hari?
-
 #### Pipeline Pre-processor `pipeline-preprocessor`
 
 Config variable                 | Config key                                | Config value
