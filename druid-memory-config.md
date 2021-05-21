@@ -9,14 +9,14 @@ total server memory = 32Gb
 
 ### Memory config used
 
-Process       | Merge Buffers, threads, buffer size     | xms, xmx, MaxDirectMemoryDize       | TOTAL
---------------|-----------------------------------------|-------------------------------------|--------------------------
-historical    | 2,2,128 -> 2,2,512(536870912b)          | 1048m,1048m,800m -> 2GB,5GB,2.5GB   | 7.5GB
-broker 	      | -,2,128 -> 2,1,512                      | 128m,128m,800m   -> 1GB,2GB,2GB     | 4GB
-coordinator   |                                         | 128m,128m,-      -> 1GB,2GB,-       | 2GB
-overlord      |                                         | 256m,256m,-      -> 512GB,1GB,-     | 1GB
-middlemanager |                                         | 128m,128m,-      -> 128m,128m,-     | 128m
-tasks(6->10)  | -,2,25 -> 2,2,100                       | -,900m,-         -> -,1GB,512m      | 1.5GB/task = 1.5*8 = 12GB
+Process       | Merge Buffers, threads, buffer size (Mb) | xms, xmx, MaxDirectMemoryDize       | TOTAL
+--------------|------------------------------------------|-------------------------------------|--------------------------
+historical    | 2,2,128 -> 2,2,512                       | 1048m,1048m,800m -> 2GB,5GB,2.5GB   | 7.5GB
+broker 	      | -,2,128 -> 2,1,512                       | 128m,128m,800m   -> 1GB,2GB,2GB     | 4GB
+coordinator   |                                          | 128m,128m,-      -> 1GB,2GB,-       | 2GB
+overlord      |                                          | 256m,256m,-      -> 512GB,1GB,-     | 1GB
+middlemanager |                                          | 128m,128m,-      -> 128m,128m,-     | 128m
+tasks(6->10)  | -,2,25 -> 2,2,100                        | -,900m,-         -> -,1GB,512m      | 1.5GB/task = 1.5*8 = 12GB
 
 
 TOTAL = ~26GB
