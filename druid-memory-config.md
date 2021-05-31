@@ -16,10 +16,11 @@ broker 	      | -,2,128 -> 2,1,512                       | 128m,128m,800m   -> 1
 coordinator   |                                          | 128m,128m,-      -> 1GB,2GB,-       | 2GB
 overlord      |                                          | 256m,256m,-      -> 512GB,1GB,-     | 1GB
 middlemanager |                                          | 128m,128m,-      -> 128m,128m,-     | 128m
+router        |                                          | -,-,-            -> 256m,512m,-     | 512m
 tasks(6->10)  | -,2,25 -> 2,2,100                        | -,900m,-         -> -,1GB,512m      | 1.5GB/task = 1.5*8 = 12GB
 
 
-TOTAL = ~26GB
+TOTAL = ~28GB
 
 
 ## Reasoning
@@ -116,3 +117,4 @@ The Router has light resource requirements, as it proxies requests to Brokers wi
 
 You can assign it 256MB heap as a starting point, growing it if needed.
 
+- 256m/512m
