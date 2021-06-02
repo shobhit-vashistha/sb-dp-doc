@@ -3,10 +3,9 @@
 The purpose of data-pipeline is to process the Telemetry (+ some other) data, and store it for use by
 anyone who requires it, in a scalable manner.
 
-Note: this document assumes default configuration of flink jobs, actual configuration for each of the flink jobs is at
-`ansible/kubernetes/helm_charts/datapipeline/flink-jobs/values.j2`
+**Note:** this document assumes default configuration of flink jobs, actual configuration for each of the flink jobs is present [here](https://github.com/project-sunbird/sunbird-data-pipeline/blob/c56f74d01d9c3ab12650ecdbb03718add736cf79/kubernetes/helm_charts/datapipeline_jobs/values.j2)
 
-Note: To troubleshoot your data-pipeline setup see doc [here](https://github.com/shobhit-vashistha/sb-dp-doc/blob/main/dp-debug.md "Data-pipeline debug")
+**Note:** To troubleshoot your data-pipeline setup see doc [here](https://github.com/shobhit-vashistha/sb-dp-doc/blob/main/dp-debug.md "Data-pipeline debug")
 
 ## Overview
 
@@ -56,7 +55,7 @@ telemetry.unique.secondary      | Secondary Unique Events   |                   
 telemetry.unique.primary        | Unique Events             |                           | pipeline-preprocessor
 telemetry.denorm                | De-normalized Events      | druid-events-validator    | de-normalization     
 druid.events.summary            | Summary Events            | Druid                     | de-normalization:Summary,<br> druid-events-validator
-telemetry.derived               | Summary Events            | de-normalization:Summary  | Spark?
+telemetry.derived               | Summary Events            | de-normalization:Summary  | Spark
 telemetry.derived.unique        | Unique Summary Events     |                           | de-normalization:Summary 
 druid.events.telemetry          | Validated Events          | Druid                     | druid-events-validator
 telemetry.assess?               | ASSES/RESPONSE Events?    | assessment-aggregator     | ?
