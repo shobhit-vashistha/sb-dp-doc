@@ -205,8 +205,7 @@
 ```
 </details>
 
-
-about - /about/
+## visit about - /about/
 
 <details>
 <summary>INTERACT json</summary>
@@ -312,8 +311,7 @@ about - /about/
 ```
 </details>
 
-
-get app - /getapp/
+## visit get app - /getapp/
 
 <details>
 <summary>INTERACT json</summary>
@@ -419,8 +417,7 @@ get app - /getapp/
 ```
 </details>
 
-
-contribute - /contribute/
+## visit contribute - /contribute/
 
 <details>
 <summary>INTERACT json</summary>
@@ -526,7 +523,7 @@ contribute - /contribute/
 ```
 </details>
 
-explore - /explore
+## click explore - /explore
 
 <details>
 <summary>INTERACT json</summary>
@@ -575,7 +572,7 @@ explore - /explore
 ```
 </details>
 
-select tab - courses
+## select tab - courses
 
 <details>
 <summary> json</summary>
@@ -1047,7 +1044,7 @@ select tab - courses
 ```
 </details>
 
-search "history"
+## search "history"
 click one of the results - https://preprod.ntp.net.in/play/content/do_312533343201009664218943?contentType=Resource
 
 <details>
@@ -1863,7 +1860,7 @@ click one of the results - https://preprod.ntp.net.in/play/content/do_3125333432
 ```
 </details>
 
-flipping through the slides
+## flipping through the slides
 
 <details>
 <summary> json</summary>
@@ -5707,7 +5704,7 @@ flipping through the slides
 ```
 </details>
 
-review resource
+## review resource
 interact with tara
 and navigate back to textbooks
 
@@ -6084,7 +6081,7 @@ and navigate back to textbooks
 ```
 </details>
 
-filter and play another content
+## filter and play another content
 https://preprod.ntp.net.in/play/collection/do_312796455225753600116705?contentType=TextBook
 
 <details>
@@ -6763,7 +6760,7 @@ https://preprod.ntp.net.in/play/collection/do_312796455225753600116705?contentTy
 ```
 </details>
 
-navigate back to textbooks
+## navigate back to textbooks
 
 <details>
 <summary> json</summary>
