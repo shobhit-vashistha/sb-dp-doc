@@ -17,7 +17,7 @@ coordinator   |                                          | 128m,128m,-      -> 1
 overlord      |                                          | 256m,256m,-      -> 512GB,1GB,-     | 1GB
 middlemanager |                                          | 128m,128m,-      -> 128m,128m,-     | 128m
 router        |                                          | -,-,-            -> 256m,512m,-     | 512m
-tasks(6->10)  | -,2,25 -> 2,2,100                        | -,900m,-         -> -,1GB,512m      | 1.5GB/task = 1.5*8 = 12GB
+tasks(6->8)  | -,2,25 -> 2,2,100                        | -,900m,-         -> -,1GB,512m      | 1.5GB/task = 1.5*8 = 12GB
 
 
 TOTAL = ~28GB
