@@ -67,9 +67,6 @@ class Analyser(object):
             self.topic_events[topic] = list(read_events(topic_file_path(self.dir_path, topic)))
 
 
-
-
-
 def extract(batch_events, de_dup=True):
     """
     telemetry-extractor
@@ -86,7 +83,6 @@ def extract(batch_events, de_dup=True):
     event_count = len(extracted_events)
 
     return extracted_events, batch_event_count, unique_batch_event_count, event_count
-
 
 
 def analyse_data(data_dir, topics=MAIN_TOPICS):
