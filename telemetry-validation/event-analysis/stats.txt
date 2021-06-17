@@ -1,0 +1,17 @@
+234 dev.druid.events.log.txt
+30 dev.druid.events.telemetry.txt
+ 0 dev.telemetry.assess.raw.txt
+10 dev.telemetry.audit.txt
+60 dev.telemetry.denorm.txt
+30 dev.telemetry.duplicate.txt
+ 7 dev.telemetry.error.txt
+ 0 dev.telemetry.extractor.duplicate.txt
+ 0 dev.telemetry.extractor.failed.txt
+39 dev.telemetry.failed.txt
+21 dev.telemetry.ingest.txt
+174 dev.telemetry.raw.txt
+52 dev.telemetry.unique.primary.txt
+56 dev.telemetry.unique.secondary.txt
+108 dev.telemetry.unique.txt
+
+821 total

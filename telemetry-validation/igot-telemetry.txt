@@ -1,0 +1,623 @@
+https://igot-dev.in/page/learn
+
+[
+  {
+    "eid": "START",
+    "ets": 1623228362498,
+    "ver": "3.0",
+    "mid": "START:c3067361e221693772703b26faa7e652",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0.0"
+    },
+    "tags": [],
+    "edata": {
+      "type": "app",
+      "mode": "view",
+      "pageid": "",
+      "duration": 1623228362.497
+    }
+  },
+  {
+    "eid": "START",
+    "ets": 1623228362498,
+    "ver": "3.0",
+    "mid": "START:c3067361e221693772703b26faa7e652",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0.0"
+    },
+    "tags": [],
+    "edata": {
+      "type": "app",
+      "mode": "view",
+      "pageid": "",
+      "duration": 1623228362.497
+    }
+  },
+  {
+    "eid": "START",
+    "ets": 1623228362704,
+    "ver": "3.0",
+    "mid": "START:db5f6c2b464f5635acb97532d301ba36",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/home"
+    },
+    "tags": [],
+    "edata": {
+      "type": "Page",
+      "mode": "View",
+      "pageid": "page/home",
+      "duration": 1623228362.704
+    }
+  },
+  {
+    "eid": "START",
+    "ets": 1623228362704,
+    "ver": "3.0",
+    "mid": "START:db5f6c2b464f5635acb97532d301ba36",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/home"
+    },
+    "tags": [],
+    "edata": {
+      "type": "Page",
+      "mode": "View",
+      "pageid": "page/home",
+      "duration": 1623228362.704
+    }
+  },
+  {
+    "eid": "IMPRESSION",
+    "ets": 1623228362751,
+    "ver": "3.0",
+    "mid": "IMPRESSION:38d140a0a418169aa7dbc42065007578",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/home"
+    },
+    "tags": [],
+    "edata": {
+      "pageid": "page/home",
+      "type": "page",
+      "uri": "page/home"
+    }
+  },
+  {
+    "eid": "IMPRESSION",
+    "ets": 1623228362751,
+    "ver": "3.0",
+    "mid": "IMPRESSION:38d140a0a418169aa7dbc42065007578",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/home"
+    },
+    "tags": [],
+    "edata": {
+      "pageid": "page/home",
+      "type": "page",
+      "uri": "page/home"
+    }
+  },
+  {
+    "eid": "AUDIT",
+    "ets": 1623228362751,
+    "ver": "3.0",
+    "mid": "AUDIT:07a5166f17d687938d9ed0552a765e88",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/home"
+    },
+    "tags": [],
+    "edata": {
+      "type": "Created",
+      "props": "Login",
+      "state": {},
+      "prevstate": "",
+      "duration": ""
+    }
+  },
+  {
+    "eid": "AUDIT",
+    "ets": 1623228362751,
+    "ver": "3.0",
+    "mid": "AUDIT:07a5166f17d687938d9ed0552a765e88",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/home"
+    },
+    "tags": [],
+    "edata": {
+      "type": "Created",
+      "props": "Login",
+      "state": {},
+      "prevstate": "",
+      "duration": ""
+    }
+  },
+  {
+    "eid": "END",
+    "ets": 1623228368360,
+    "ver": "3.0",
+    "mid": "END:db142092a30b25649337333fc8fedde7",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/home"
+    },
+    "tags": [],
+    "edata": {
+      "type": "Page",
+      "mode": "View",
+      "pageid": "page/learn",
+      "duration": 5.656
+    }
+  }
+]
+
+[
+  {
+    "eid": "END",
+    "ets": 1623228368360,
+    "ver": "3.0",
+    "mid": "END:db142092a30b25649337333fc8fedde7",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/home"
+    },
+    "tags": [],
+    "edata": {
+      "type": "Page",
+      "mode": "View",
+      "pageid": "page/learn",
+      "duration": 5.656
+    }
+  }
+]
+
+consume content
+
+[
+  {
+    "eid": "START",
+    "ets": 1623228368368,
+    "ver": "3.0",
+    "mid": "START:f36ede482581f1ab97489640de072013",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/learn"
+    },
+    "tags": [],
+    "edata": {
+      "type": "Page",
+      "mode": "View",
+      "pageid": "page/learn",
+      "duration": 1623228368.368
+    }
+  },
+  {
+    "eid": "START",
+    "ets": 1623228368368,
+    "ver": "3.0",
+    "mid": "START:f36ede482581f1ab97489640de072013",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/learn"
+    },
+    "tags": [],
+    "edata": {
+      "type": "Page",
+      "mode": "View",
+      "pageid": "page/learn",
+      "duration": 1623228368.368
+    }
+  },
+  {
+    "eid": "IMPRESSION",
+    "ets": 1623228368419,
+    "ver": "3.0",
+    "mid": "IMPRESSION:175aa6d9590e846740fb932f2769c63d",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/learn"
+    },
+    "tags": [],
+    "edata": {
+      "pageid": "page/learn",
+      "type": "page",
+      "uri": "page/learn"
+    }
+  },
+  {
+    "eid": "IMPRESSION",
+    "ets": 1623228368419,
+    "ver": "3.0",
+    "mid": "IMPRESSION:175aa6d9590e846740fb932f2769c63d",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/learn"
+    },
+    "tags": [],
+    "edata": {
+      "pageid": "page/learn",
+      "type": "page",
+      "uri": "page/learn"
+    }
+  },
+  {
+    "eid": "INTERACT",
+    "ets": 1623233350676,
+    "ver": "3.0",
+    "mid": "INTERACT:3f2b0f008f37a45265f26cc497728211",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/learn"
+    },
+    "tags": [],
+    "edata": {
+      "type": "click",
+      "subtype": "card-cardContent",
+      "id": "do_113258044096110592195",
+      "pageid": "page/learn"
+    }
+  },
+  {
+    "eid": "INTERACT",
+    "ets": 1623233350676,
+    "ver": "3.0",
+    "mid": "INTERACT:3f2b0f008f37a45265f26cc497728211",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/learn"
+    },
+    "tags": [],
+    "edata": {
+      "type": "click",
+      "subtype": "card-cardContent",
+      "id": "do_113258044096110592195",
+      "pageid": "page/learn"
+    }
+  },
+  {
+    "eid": "END",
+    "ets": 1623233351220,
+    "ver": "3.0",
+    "mid": "END:efdef9a3a0c9c05425a10680c95916ae",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/learn"
+    },
+    "tags": [],
+    "edata": {
+      "type": "Page",
+      "mode": "View",
+      "pageid": "app/toc/do_113258044096110592195/overview",
+      "duration": 4982.852
+    }
+  }
+]
+
+[
+  {
+    "eid": "END",
+    "ets": 1623233351220,
+    "ver": "3.0",
+    "mid": "END:efdef9a3a0c9c05425a10680c95916ae",
+    "actor": {
+      "id": "d56fec8d-a814-436b-90c5-f396fc4dac42",
+      "type": "User"
+    },
+    "context": {
+      "channel": "igot",
+      "pdata": {
+        "id": "lex-web-ui",
+        "ver": "1.0.0",
+        "pid": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+      },
+      "env": "prod",
+      "sid": "",
+      "did": "268a5b0c77319bef58741a4423d510c2",
+      "cdata": [],
+      "rollup": {}
+    },
+    "object": {
+      "ver": "1.0",
+      "id": "page/learn"
+    },
+    "tags": [],
+    "edata": {
+      "type": "Page",
+      "mode": "View",
+      "pageid": "app/toc/do_113258044096110592195/overview",
+      "duration": 4982.852
+    }
+  }
+]

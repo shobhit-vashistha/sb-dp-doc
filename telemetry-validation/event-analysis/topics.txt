@@ -1,0 +1,128 @@
+# JOB wise topics
+
+# telemetry-extractor
+
+dev.telemetry.ingest                    | source
+
+dev.telemetry.extractor.duplicate       | secondary sinks
+dev.telemetry.extractor.failed          |
+dev.druid.events.log                    |
+dev.telemetry.assess.raw                |
+
+dev.telemetry.raw                       | main sinks
+
+
+# pipeline-preprocessor
+
+dev.telemetry.raw
+
+dev.telemetry.failed
+dev.druid.events.log
+dev.telemetry.error
+dev.telemetry.audit
+dev.telemetry.duplicate
+
+dev.telemetry.unique
+dev.telemetry.unique.secondary
+dev.telemetry.unique.primary
+
+
+# de-normalization-primary
+
+dev.telemetry.unique.primary
+
+dev.telemetry.failed
+dev.telemetry.duplicate
+
+dev.telemetry.denorm
+
+
+# de-normalization-secondary
+
+dev.telemetry.unique.secondary
+
+dev.telemetry.failed
+dev.telemetry.duplicate
+
+dev.telemetry.denorm
+
+
+# de-normalization-summary
+
+dev.telemetry.derived
+
+dev.telemetry.failed
+dev.telemetry.duplicate
+
+dev.telemetry.derived.unique
+dev.druid.events.summary
+
+
+# druid-validator
+
+dev.telemetry.denorm
+
+dev.telemetry.failed
+dev.telemetry.duplicate
+
+dev.druid.events.telemetry
+
+
+
+
+# assessment-aggregator
+
+dev.telemetry.assess
+
+dev.telemetry.assess.failed
+
+dev.issue.certificate.request
+
+# user-cache-updater
+
+dev.telemetry.audit
+
+# content-cache-updater
+
+dev.learning.graph.events
+
+# device-profile-updater
+
+dev.events.deviceprofile
+
+
+
+
+# ALL TOPICS
+
+dev.telemetry.ingest
+dev.telemetry.raw
+dev.telemetry.unique
+dev.telemetry.unique.secondary
+dev.telemetry.unique.primary
+dev.telemetry.denorm
+dev.druid.events.telemetry
+
+dev.telemetry.extractor.duplicate
+dev.telemetry.extractor.failed
+dev.telemetry.failed
+dev.telemetry.error
+dev.telemetry.duplicate
+
+dev.druid.events.log
+dev.telemetry.audit
+dev.telemetry.assess.raw
+
+dev.telemetry.assess
+dev.telemetry.assess.failed
+dev.issue.certificate.request
+
+dev.telemetry.derived
+dev.telemetry.derived.unique
+dev.druid.events.summary
+
+dev.learning.graph.events
+dev.events.deviceprofile
+
+
+

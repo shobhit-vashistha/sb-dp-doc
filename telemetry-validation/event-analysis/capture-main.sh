@@ -1,0 +1,15 @@
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.telemetry.ingest > /tmp/telemetry-data/dev.telemetry.ingest.txt &
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.telemetry.raw > /tmp/telemetry-data/dev.telemetry.raw.txt &
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.telemetry.unique > /tmp/telemetry-data/dev.telemetry.unique.txt &
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.telemetry.unique.secondary > /tmp/telemetry-data/dev.telemetry.unique.secondary.txt &
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.telemetry.unique.primary > /tmp/telemetry-data/dev.telemetry.unique.primary.txt &
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.telemetry.denorm > /tmp/telemetry-data/dev.telemetry.denorm.txt &
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.druid.events.telemetry > /tmp/telemetry-data/dev.druid.events.telemetry.txt &
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.telemetry.extractor.duplicate > /tmp/telemetry-data/dev.telemetry.extractor.duplicate.txt &
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.telemetry.extractor.failed > /tmp/telemetry-data/dev.telemetry.extractor.failed.txt &
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.telemetry.failed > /tmp/telemetry-data/dev.telemetry.failed.txt &
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.telemetry.error > /tmp/telemetry-data/dev.telemetry.error.txt &
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.telemetry.duplicate > /tmp/telemetry-data/dev.telemetry.duplicate.txt &
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.druid.events.log > /tmp/telemetry-data/dev.druid.events.log.txt &
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.telemetry.audit > /tmp/telemetry-data/dev.telemetry.audit.txt &
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dev.telemetry.assess.raw > /tmp/telemetry-data/dev.telemetry.assess.raw.txt &

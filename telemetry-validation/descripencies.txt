@@ -1,0 +1,14 @@
+field                   igot                                    diksha                          expected
+
+$.context.channel       ekstep.in | igot                        an actual id                    Channel which has produced the event
+$.context.uid           <not-present>                           anonymous | user id             <not in spec>
+$.context.pdata.pid     user agent string                       sunbird-portal                  Producer: In case the component is distributed, then which instance of that component
+$.context.pdata.id      web-ui | lex-web-ui                     preprod.diksha.portal           Producer: unique id assigned to that component
+$.context.env           prod                                    home                            Unique environment where the event has occured.
+$.context.cdata         <empty-list>                            list of objects                 Optional. correlation data
+$.tags                  <empty-list>                            list                            Optional. Encrypted dimension tags passed by respective channels
+$.edata.type            page | Page | app                       page-loaded                     in case of Impression - (list, detail, view, edit, workflow, search)
+$.edata.subtype         <not-present>                           init                            in case of Impression - Additional subtype. "Paginate", "Scroll"
+$.edata.mode            view | View                             <not-present>                   <not in spec>
+$.edata.pageid          not present sometimes, page/home        static-home                     Unique page id
+$.edata.uri             not present sometimes, page/home        https://preprod.ntp.net.in/     Relative URL of the content
